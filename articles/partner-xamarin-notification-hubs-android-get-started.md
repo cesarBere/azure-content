@@ -147,7 +147,7 @@ This assembly provides an easy way to register with Azure Notification Hubs. It 
 
         // Azure app specific connection string and hub path
         public const string ConnectionString = "<Azure connection string>";
-        public const string NotificationHubPath = "<hub path>";
+        public const string NotificationHubName = "<hub name>"; // The one you chose when creating the hub, not the path given in azure interface's quick glance
 
 2. Add the following using statements to **MainActivity.cs**:
 
